@@ -265,7 +265,7 @@ local keyset={0,0}
 
 local function DiffInputHandler(event)
 	local pn= event.PlayerNumber
-	local button = event.button
+	local button = event.GameButton
 	if event.type == "InputEventType_Release" then return end
 	--SOUND:PlayOnce(THEME:GetPathS("_MusicWheel","Change"),true)
 	if (button == "MenuUp" or button == "MenuLeft") and selection[pn] > 1 and GAMESTATE:IsPlayerEnabled(pn) and keyset[pn] ~= 1 then
