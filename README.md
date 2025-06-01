@@ -1,6 +1,7 @@
 # DDR A3 THEME
 
-Edit from Inori's DDR A20 Theme.
+Contains personal enhancements. Enhancement list:
+- Allows dance pad to be used for adjusting difficulty scroller on music select screen.
 
 ## IMPORTANT NOTES
 
